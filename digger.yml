@@ -4,4 +4,4 @@ projects:
     - name: prod
       dir: prod
       depends_on: ["dev"]
-      include_patterns: ["../dev**"]
+      include_patterns: ["dev/**"]
