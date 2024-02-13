@@ -3,3 +3,4 @@ projects:
       dir: dev
     - name: prod
       dir: prod
+      depends_on: ["dev"]
